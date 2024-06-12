@@ -1,0 +1,6 @@
+Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers. in python
+def even_or_odd(num):: This line defines a function named even_or_odd that takes one parameter called num. The def keyword is used to start a function definition, followed by the function name (even_or_odd) and the parameter list (num in this case) enclosed in parentheses. The colon : at the end indicates the start of the function body.
+if num % 2 == 0:: This line starts an if statement. The % operator calculates the remainder of dividing num by 2 (num % 2). If this remainder is equal to 0 (== 0), it means that num is evenly divisible by 2, indicating that it's an even number.
+return "Even": This line is executed if the condition in the if statement is true, i.e., if num is even. The return statement exits the function and returns the string "Even" as the result.
+else:: This line is part of the if statement. If the condition in the if statement (num % 2 == 0) is false, meaning that num is not evenly divisible by 2 (i.e., it's odd), then the code inside the else block will be executed.
+return "Odd": This line is executed if the condition in the if statement is false, i.e., if num is odd. The return statement exits the function and returns the string "Odd" as the result.
